@@ -46,7 +46,7 @@ export default function Home (props) {
       
 	  <title>Vitamine și minerale naturale direct de la producător. C.O.S. Laboratories</title>
 	  <meta name="description" content="Vitamine și minerale de la producător. Deoarece suntem producători, oferim preț favorabil și calitate înaltă."/>
-	  <meta name="google-site-verification" content="5sT3_P7tKTbA9RuTPkiQlpDpXBK84GG89RcmtVHR-Dw" />
+	  <meta name="google-site-verification" content="iYTg6Zq-Rc5oYebATvttwS8GweL_qIB-bG4Ev_V4XWg" />
 	  <meta name="robots" content="index,follow" />
 	</Head>
 				<Script strategy="lazyOnload">
