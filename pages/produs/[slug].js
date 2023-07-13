@@ -54,7 +54,10 @@ const ress  =  <table className="mt-2 w-full">
 	  <title>{product.seo.title}</title>
 	  <meta name="description" content={product.seo.metaDesc}/>
 	 <meta name="robots" content="index,follow" />
+     <link rel="canonical" href={product?.slug} ></link>
      <meta property="og:image" content={ product?.image?.sourceUrl }></meta>
+     <meta property="og:title" content={product.seo.title}></meta>
+<meta property="og:description" content={product.seo.metaDesc}></meta>
 	</Head>
         { product ? (
             <div className="single-product container mx-auto my-32  xl:px-0">
