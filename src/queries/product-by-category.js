@@ -21,22 +21,22 @@ export const PRODUCT_BY_CATEGORY_SLUG = gql` query PRODUCT_BY_CATEGORY_SLUG($slu
 		  }
 		  name
 		  ... on SimpleProduct {
-			price(format: RAW)
-			regularPrice(format: RAW)
-			salePrice(format: RAW)
+			price
+			regularPrice
+			salePrice
 			id
 		  }
 		  ... on VariableProduct {
-			price(format: RAW)
-			regularPrice(format: RAW)
-			salePrice(format: RAW)
+			price
+			regularPrice
+			salePrice
 			id
 		  }
 		  ... on ExternalProduct {
-			price(format: RAW)
+			price
 			id
-			regularPrice(format: RAW)
-			salePrice(format: RAW)
+			regularPrice
+			salePrice
 			externalUrl
 		  }
 		  ... on GroupProduct {
@@ -44,9 +44,9 @@ export const PRODUCT_BY_CATEGORY_SLUG = gql` query PRODUCT_BY_CATEGORY_SLUG($slu
 			  nodes {
 				... on SimpleProduct {
 				  id
-				  regularPrice(format: RAW)
-				  salePrice(format: RAW)
-				  price(format: RAW)
+				  regularPrice
+				  salePrice
+				  price
 				}
 			  }
 			}
