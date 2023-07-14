@@ -9,7 +9,6 @@ export default function Categories ( props ) {
 
 	return (
 		<Layout>
-			
 			{/*Categories*/}
 			
 				<h2 className="text-2xl ml-3 uppercase mt-20 text-center">Categories</h2>
