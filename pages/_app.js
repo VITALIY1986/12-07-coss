@@ -15,14 +15,8 @@ import Head from "next/head"
 function MyApp({ Component, pageProps }) {
   
   return <AuthContextProvider><AppProvider><SearchProvider2 client={client}><SearchProvider client={client}><ApolloProvider client={client}><Component {...pageProps}  />
-   <Head>
-   <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link
-  rel="icon"
-  href="/icon?<generated>"
-  type="image/<generated>"
-  sizes="<generated>"
-/></Head>
+   <Head> <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png" /></Head>
  
   
   </ApolloProvider></SearchProvider></SearchProvider2></AppProvider></AuthContextProvider>
