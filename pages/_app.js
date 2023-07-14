@@ -15,7 +15,9 @@ import Head from "next/head"
 function MyApp({ Component, pageProps }) {
   
   return <AuthContextProvider><AppProvider><SearchProvider2 client={client}><SearchProvider client={client}><ApolloProvider client={client}><Component {...pageProps}  />
-   <Head><link
+   <Head>
+   <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link
   rel="icon"
   href="/icon?<generated>"
   type="image/<generated>"
