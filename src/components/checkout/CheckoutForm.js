@@ -26,7 +26,7 @@ import CLEAR_CART_MUTATION from "../../mutations/clear-cart";
  	address1: '',
 address2: '',
   	city: '',
- 	
+ 	 email: '',
      
   	phone: '',
   

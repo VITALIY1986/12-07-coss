@@ -136,6 +136,17 @@ const deliveriplesholder = address2 === "LIVRARE CURIERAT" ? "STRADA ȘI NR" : "
                     containerClassNames="w-full overflow-hidden sm:my-2 sm:px-2 md:w-1/2"
               />*/}
                 <InputField
+                name="email"
+                type="email"
+                inputValue={input?.email}
+                required
+                handleOnChange={handleOnChange}
+                label="Email"
+                errors={errors}
+                isShipping={isShipping}
+                containerClassNames="mb-4"
+            />
+                <InputField
                     name="phone"
                     inputValue={input?.phone}
                     required
@@ -146,17 +157,7 @@ const deliveriplesholder = address2 === "LIVRARE CURIERAT" ? "STRADA ȘI NR" : "
                     containerClassNames="mb-4"
                 />
         
-         {/*   <InputField
-                name="email"
-                type="email"
-                inputValue={input?.email}
-                required
-                handleOnChange={handleOnChange}
-                label="Email"
-                errors={errors}
-                isShipping={isShipping}
-                containerClassNames="mb-4"
-            />*/}
+      
             {/*	@TODO Create an Account
             <div className="form-check">
             <label className="leading-7 text-sm text-gray-600" className="form-check-label">

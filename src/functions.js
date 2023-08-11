@@ -306,7 +306,7 @@ export const createCheckoutData = ( order ) => {
 			address2: order?.shipping?.address2,
 			city: order?.shipping?.city,
 		
-		
+			email: order?.shipping?.email,
 			phone: order?.shipping?.phone,
 		
 		},
@@ -316,7 +316,7 @@ export const createCheckoutData = ( order ) => {
 			address1: billingData?.address1,
 			address2: billingData?.address2,
 			city: billingData?.city,
-		
+			email: order?.shipping?.email,
 			
 			phone: billingData?.phone,
 		
