@@ -28,6 +28,6 @@ module.exports =   {
      * @see https://nextjs.org/docs/basic-features/image-optimization#domains
      */
     images: {
-        domains: [ allowedImageWordPressDomain, 'www.cos-laboratories.com' ],
+        domains: [ allowedImageWordPressDomain, 'www.new.cos-aviation.com' ],
     },
 };
