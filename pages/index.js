@@ -82,7 +82,7 @@ export default function Home (props) {
 
 	
 			{/*Categories*/}
-		<h2 className="text-2xl ml-3 uppercase mt-20 text-center font-semibold">CATALOGE</h2>
+		<h2 className="text-2xl ml-3 uppercase mt-20 text-center font-semibold">CATALOG</h2>
 			<div className=" flex flex-wrap  justify-around my-10">
 				
 				{ productCategories.length ? (
@@ -122,7 +122,7 @@ export default function Home (props) {
 		
 	{/*Hero 5*/}	
 	<div className="products container mx-auto my-10  ">
-	<h2 className="text-2xl ml-3 uppercase mt-20 text-center font-semibold">PRODUCE</h2>	
+	<h2 className="text-2xl ml-3 uppercase mt-20 text-center font-semibold">PRODUSE</h2>	
 		
 			<div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 mt-10">
 				{ featuredproducts.length ? (
