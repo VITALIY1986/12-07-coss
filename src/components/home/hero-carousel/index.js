@@ -65,7 +65,7 @@ const HeroCarousel = ({heroCarousel}) => {
                         const opacity = ( activeIndex === index || 1 === heroCarousel.length ) ? 'opacity-100 transition duration-500 ease-in-out' : 'opacity-0 transition duration-500 ease-in-out';
                         return (
                             <>
-                            <div class="marquee  font-playfair font-bold "><span>{heroCarousel[activeIndex]?.name} </span></div>
+                   {/*  <div class="marquee  font-playfair font-bold "><span>{heroCarousel[activeIndex]?.name} </span></div>*/}
                             <div key={item?.id}className={`${opacity} solid_corection banner-img-container absolute top-0 left-0 bottom-0 transition duration-500 ease-in-out  w-full slidervh overflow-hidden`}>
                                 <img className={`h-full w-full object-cover`}
                                     src={item?.image?.sourceUrl} srcSet={item?.image?.srcSet} loading="lazy"    width="1000"

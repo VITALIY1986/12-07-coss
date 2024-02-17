@@ -117,6 +117,7 @@ export default function Home (props) {
 							.filter(category => category.slug !== "offers")
 							.filter(category => category.slug !== "aloe-vera-pacheta-3-1")
 							.filter(category => category.slug !== "pachete-promotionale")
+							.filter(category => category.slug !== "pachet-frumusete-si-stare-de-bine")
 							.map( category =>		<SwiperSlide > <ParentCategoryBlock category={ category }/> </SwiperSlide>)
 						) : '' }
 					</Swiper>	    
