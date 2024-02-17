@@ -16,7 +16,9 @@ import 'react-alice-carousel/lib/alice-carousel.css';
 import Image from 'next/image'
 import Link from 'next/link';
 import Script from 'next/script';
-
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Autoplay } from 'swiper/modules';
 
 export default function Home (props) {
 
@@ -84,7 +86,28 @@ export default function Home (props) {
 			{/*Categories*/}
 		<h2 className="text-2xl ml-3 uppercase mt-20 text-center font-semibold">CATALOG</h2>
 			<div className=" flex flex-wrap  justify-around my-10">
+					
+	
+			<Swiper
+			breakpoints={{
+				// when window width is >= 640px
+			 
+				768: {
 				
+				  slidesPerView: 6,
+				},
+			  }}
+								autoplay={{
+								  delay: 2500,
+								  disableOnInteraction: false,
+								}}
+								modules={[Autoplay]}
+				
+					slidesPerView={3}
+					onSlideChange={() => console.log('slide change')}
+					onSwiper={(swiper) => console.log(swiper)}
+				  >
+
 				{ productCategories.length ? (
 							productCategories
 							.filter(category => category.slug !== "par-landing")
@@ -94,8 +117,9 @@ export default function Home (props) {
 							.filter(category => category.slug !== "offers")
 							.filter(category => category.slug !== "aloe-vera-pacheta-3-1")
 							.filter(category => category.slug !== "pachete-promotionale")
-							.map( category => <ParentCategoryBlock category={ category }/> )
+							.map( category =>		<SwiperSlide > <ParentCategoryBlock category={ category }/> </SwiperSlide>)
 						) : '' }
+					</Swiper>	    
 			
 			</div>
 			

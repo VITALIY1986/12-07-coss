@@ -29,6 +29,11 @@ module.exports = {
             DEFAULT: '#e44244',
             
           },
+          gray: {
+           
+            DEFAULT: '#dedede',
+            
+          },
           purple: {
             DEFAULT: '#e44244'
           },

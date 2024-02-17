@@ -7,11 +7,11 @@ const ParentCategoryBlock = ( props ) => {
 	const { category } = props;
 
 	return (
-		<div className="product w-1/2  md:w-1/3  my-3 flex justify-center text-center ">
+		<div className="product w-1/2  md:w-1/3  my-3 mx-10 flex justify-center text-center ">
 			<Link href={`/categorie/${category?.slug}`}>
 				<a>
 				<Image
-						className=" mx-3 "
+						className=" mx-3 rounded-full bg-gray"
 						layout="fill"
 						containerClassNames="h-28 w-28"
 						sourceUrl={ category?.image?.sourceUrl ?? '' }
