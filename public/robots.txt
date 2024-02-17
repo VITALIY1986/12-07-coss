@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cos-laboratories.com/
+
+# Sitemaps
+Sitemap: https://cos-laboratories.com/sitemap.xml
