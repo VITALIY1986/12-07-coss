@@ -58,7 +58,7 @@ export default function Home (props) {
             })('https://widget.replain.cc/dist/client.js');
         `}
       </Script>
-				{/*Hero 1*/}
+				{/*Hero1*/}
 	<div  className="main  ">
 	<HeroCarousel heroCarousel={heroCarousel}/>
 	<div className="wt-braun"></div>
