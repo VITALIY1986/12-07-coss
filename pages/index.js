@@ -64,9 +64,23 @@ export default function Home (props) {
 	<div  className="main  ">
 	<HeroCarousel heroCarousel={heroCarousel}/>
 	<div className="wt-braun"></div>
-			
-	
-
+		<div className="text-justify lg:text-center mt-10 mx-3">
+	<h1 className="font-semibold">Bine ați venit la C.O.S Laboratories- Sursa dumneavoastră de sănătate și vitalitate!</h1>
+	<p className="mt-3">Corpul nostru este o sistemă complexă, care necesită o varietate de substanțe nutritive pentru a menține sănătatea și bunăstarea. La Laboratoarele C.O.S, înțelegem cât de important este să aveți acces la vitamine și minerale de înaltă calitate pentru a vă menține energia, imunitatea și starea generală de sănătate la un nivel optim. Oferim o gamă largă de produse pentru sănătatea creierului, digestie, energie, întărirea imunității, sănătatea inimii, precum și pentru frumusețea pielii, părului și unghiilor.</p>
+	<h2 className="font-bold mt-6 ">De ce să ne alegeți?</h2>
+	<p className="mt-3"><strong>Gama largă de produse:</strong> Catalogul nostru include doar cele mai bune vitamine și suplimente minerale, cu ingrediente de la producătorii de materii prime de top, inclusiv formule exclusive pentru susținerea complexă a sănătății dumneavoastră.</p>
+<p><strong>Garantarea calității:</strong> Selectăm cu atenție produsele, acordând atenție compoziției lor, sursei și eficacității, astfel încât să puteți avea încredere în fiecare achiziție.</p>
+<p ><strong>Abordare individualizată:</strong> Indiferent dacă căutați suport pentru sănătatea creierului sau doriți să vă îmbunătățiți rezistența fizică, avem tot ce vă trebuie pentru a vă atinge obiectivele.
+</p>
+	<p><strong>Sănătatea creierului:</strong> De la mioinozitol la vitamine din grupa B, suplimentele noastre vă vor susține funcțiile cognitive, memoria și concentrarea.</p>
+	<p><strong>Digestie: </strong>Îmbunătățiți digestia și absorbția substanțelor nutritive cu produsele noastre pe bază de aloe vera și zinc.</p>
+	<p><strong>Energie și vitalitate: </strong>Combateți oboseala și mențineți-vă activi pe tot parcursul zilei cu complexele noastre energetice și coenzima Q10.</p>
+	<p><strong>Imunitate: </strong>Consolidați-vă imunitatea cu ajutorul vitaminelor noastre D3, C și al suplimentelor imunostimulatoare speciale.</p>
+	<p><strong>Sănătatea inimii:</strong>Susțineți inima și vasele de sânge cu produsul nostru pe bază de coenzima Q10 și acidul folic (B9).</p>
+	<p><strong>Frumusețe și sănătate: </strong>Pentru oase puternice, păr mătăsos, unghii puternice și o piele strălucitoare - alegeți complexele noastre de vitamine și minerale.</p>
+	<p className="mt-3">Alăturați-vă comunității noastre pentru sănătate și stare de bine încă de astăzi! Răsfoiți catalogul nostru pentru a găsi suplimentele perfecte, care să corespundă nevoilor dumneavoastră individuale ce țin de sănătate. Dacă aveți întrebări sau aveți nevoie de ajutor în selectarea produselor, echipa noastră de experți este întotdeauna pregătită să vă ajute.</p>
+	<p className="mt-3"><strong>Calea dumneavoastră către o sănătate mai bună începe aici, la C.O.S. Laboratories. Descoperiți puterea vitaminelor și mineralelor și faceți un pas către un stil de viață sănătos încă de astăzi!</strong></p>
+	</div>	
 
 
 
