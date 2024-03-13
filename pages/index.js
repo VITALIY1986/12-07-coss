@@ -64,10 +64,10 @@ export default function Home (props) {
 	<div  className="main  ">
 	<HeroCarousel heroCarousel={heroCarousel}/>
 	<div className="wt-braun"></div>
-		<div className="text-justify lg:text-center mt-10 mx-3">
-	<h1 className="font-semibold">Bine ați venit la C.O.S Laboratories- Sursa dumneavoastră de sănătate și vitalitate!</h1>
-	<p className="mt-3">Corpul nostru este o sistemă complexă, care necesită o varietate de substanțe nutritive pentru a menține sănătatea și bunăstarea. La Laboratoarele C.O.S, înțelegem cât de important este să aveți acces la vitamine și minerale de înaltă calitate pentru a vă menține energia, imunitatea și starea generală de sănătate la un nivel optim. Oferim o gamă largă de produse pentru sănătatea creierului, digestie, energie, întărirea imunității, sănătatea inimii, precum și pentru frumusețea pielii, părului și unghiilor.</p>
-	<h2 className="font-bold mt-6 ">De ce să ne alegeți?</h2>
+		<div className="text-justify  mt-10 mx-3">
+	<h1 className="font-semibold lg:text-center">Bine ați venit la C.O.S Laboratories- Sursa dumneavoastră de sănătate și vitalitate!</h1>
+	<p className="mt-3 lg:text-center">Corpul nostru este o sistemă complexă, care necesită o varietate de substanțe nutritive pentru a menține sănătatea și bunăstarea. La Laboratoarele C.O.S, înțelegem cât de important este să aveți acces la vitamine și minerale de înaltă calitate pentru a vă menține energia, imunitatea și starea generală de sănătate la un nivel optim. Oferim o gamă largă de produse pentru sănătatea creierului, digestie, energie, întărirea imunității, sănătatea inimii, precum și pentru frumusețea pielii, părului și unghiilor.</p>
+	<h2 className="font-bold mt-6 lg:text-center">De ce să ne alegeți?</h2>
 	<p className="mt-3"><strong>Gama largă de produse:</strong> Catalogul nostru include doar cele mai bune vitamine și suplimente minerale, cu ingrediente de la producătorii de materii prime de top, inclusiv formule exclusive pentru susținerea complexă a sănătății dumneavoastră.</p>
 <p><strong>Garantarea calității:</strong> Selectăm cu atenție produsele, acordând atenție compoziției lor, sursei și eficacității, astfel încât să puteți avea încredere în fiecare achiziție.</p>
 <p ><strong>Abordare individualizată:</strong> Indiferent dacă căutați suport pentru sănătatea creierului sau doriți să vă îmbunătățiți rezistența fizică, avem tot ce vă trebuie pentru a vă atinge obiectivele.
