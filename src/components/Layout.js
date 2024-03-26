@@ -25,7 +25,7 @@ const Layout = (props) => {
           {props.children}
           <Footer />
         </div>
-  
+
   );
 };
 

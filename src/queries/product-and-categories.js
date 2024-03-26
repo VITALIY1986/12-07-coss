@@ -35,7 +35,7 @@ const PRODUCTS_AND_CATEGORIES_QUERY = gql`query {
       }
     }
   }
- news: category(id: "dGVybTox") {
+ news: category(id: "dGVybToxNw==") {
     name
     posts(first: 30) {
       nodes {

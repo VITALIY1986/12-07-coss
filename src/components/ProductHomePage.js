@@ -27,7 +27,7 @@ const result = amount/interest;
 	return (
 		// @TODO Need to hndle Group products differently.
 		undefined !== product && 'GroupProduct' !== product.__typename ? (
-			<div className="product mb-5   relative">
+			<div className="product mb-5   relative bg-white rounded-sm pb-6">
 
 
 

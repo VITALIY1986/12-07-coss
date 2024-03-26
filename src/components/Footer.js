@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image'
 import profilePic from '../../public/logo.png'
 const Footer = () => (
-	<div className="footer bg-white shadow-2xl text-futer px-6 py-6 ">
+	<div className="footer bg-green-400 shadow-2xl text-futer px-6 py-6 ">
 		<div className="flex flex-col items-center">
 		
 			<div className="w-24">

@@ -1,7 +1,7 @@
 import client from "../components/ApolloClient";
 import {isEmpty, isArray} from 'lodash';
-
-
+import { createCheckoutSession } from 'next-stripe/client' // @see https://github.com/ynnoj/next-stripe
+import { loadStripe } from "@stripe/stripe-js";
 
 import GET_STATES from "../queries/get-states";
 import {createTheOrder, getCreateOrderData} from "./order";

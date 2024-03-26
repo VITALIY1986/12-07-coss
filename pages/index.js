@@ -3,7 +3,7 @@ import Layout from "../src/components/Layout";
 import client from '../src/components/ApolloClient';
 import ProductHome from "../src/components/ProductHomePage";
 import PRODUCTS_AND_CATEGORIES_QUERY from "../src/queries/product-and-categories";
-
+import Post from "../src/components/Post";
 import Head from "next/head"
 import HeroCarousel from "../src/components/home/hero-carousel";
 
@@ -30,7 +30,7 @@ export default function Home (props) {
 
 	
 	
-	const { productCategories,heroCarousel,featuredproducts } = props || {};
+	const { productCategories,heroCarousel,featuredproducts,news} = props || {};
 
 
 
@@ -177,6 +177,16 @@ export default function Home (props) {
 
 			
 				</div>
+		
+					<div className="products container mx-auto my-32 px-4 ">
+					<h2 className="products-main-title main-title mb-5 text-3xl text-center uppercase"><span className="main-title-inner">Blog</span></h2>
+					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+						{ news.length ? (
+							news.map( post => <Post key={ post.id } post={ post }/> )
+						) : '' }
+					</div>
+				</div>
+				
 			
 			</div>
 		
@@ -196,6 +206,7 @@ export async function getStaticProps () {
 		props: {
 			questionsAnswers:data?.category?.posts?.nodes ? data.category.posts.nodes : [],
 			productCategories: data?.productCategories?.nodes ? data.productCategories.nodes : [],
+			news: data?.news?.posts?.nodes ? data.news.posts.nodes : [],
 			products: data?.products?.nodes ? data.products.nodes : [],
 			heroCarousel: data?.heroCarousel?.nodes[0]?.children?.nodes ? data.heroCarousel.nodes[0].children.nodes : [],
 			featuredproducts: data?.featuredproducts?.nodes ? data.featuredproducts.nodes : []

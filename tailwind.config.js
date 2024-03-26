@@ -43,6 +43,9 @@ module.exports = {
           very_peri_dark: {
             DEFAULT: '#413f5d'
           },
+          yellow_all: {
+            DEFAULT: '#ffc937'
+          },
           pink: {
             light: '#e44244',
             DEFAULT: '#e44244',
