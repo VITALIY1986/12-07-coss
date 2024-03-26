@@ -570,3 +570,22 @@ animation: radial-anakausug 1s infinite;
    
   100% { box-shadow: 0 0 0 40px rgba(255, 0, 0, 0); }
   }
+
+
+  @keyframes glow {
+    0% {
+      text-shadow: 0 0 10px #d11b1b;
+    }
+    50% {
+      text-shadow: 0 0 20px #d11b1b;
+    }
+    100% {
+      text-shadow: 0 0 10px #d11b1b;
+    }
+  }
+  .glow-text {
+    
+ 
+    color: #d11b1b; /* Основной цвет текста */
+    animation: glow 1s infinite; /* Запускаем анимацию на бесконечное время */
+  }
