@@ -5,18 +5,15 @@ import Image from "../image";
 import {DEFAULT_PRODUCT_HOME_IMG_URL} from "../constants/urls";
 
 const Product = ( props ) => {
-	const { product,isLoggedIn } = props;
-	const regular = product?.regularPrice/2;
-	const re = product?.regularPrice ;
-	const regula = +re + +regular;
-	const login = product?.regularPrice;
-	const rar = isLoggedIn ? login :  regula  ;  
-const par = Number(rar);
-const  procent =  (product?.regularPrice - product?.price) /  product?.regularPrice * 100;
+	const { product } = props;
 
-const amount = par - product?.price;
-const interest = par/100;
-const result = amount/interest;
+	
+	  
+
+
+
+
+
 
 
 
@@ -52,6 +49,7 @@ const result = amount/interest;
 				 {product?.salePrice   ?  <div className='block mt-4'>  <div><strike className="  glow-text text-2xl ">{product?.regularPrice}</strike></div><span className='ml-3 text-2xl  px-6 py-1 text-gray-500'>{product?.price}  </span></div> :   <div className=" text-2xl">{product?.price }<span className='ml-2'></span></div>}
 				
 					<AddToCartButton product={ product } />
+				
 				</div>
 
 			</div>

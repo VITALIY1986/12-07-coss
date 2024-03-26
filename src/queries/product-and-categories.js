@@ -151,8 +151,16 @@ mccm:  category(id: "dGVybTozMjg0") {
       content
     }
   }
-  featuredproducts:  products(where: {featured: true}, first: 100) {
+  featuredproducts:  products( first: 100) {
     nodes {
+      reviews(first: 10) {
+        edges {
+          rating
+        }
+        nodes {
+          content
+        }
+      }
       id
       productId: databaseId
       averageRating
@@ -166,6 +174,7 @@ mccm:  category(id: "dGVybTozMjg0") {
         sourceUrl
       }
       name
+      
       ... on SimpleProduct {
         price
         regularPrice
