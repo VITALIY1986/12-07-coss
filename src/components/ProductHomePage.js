@@ -49,7 +49,7 @@ const result = amount/interest;
 				<div className="product-info text-center pl-2 md:pl-3">
 					
 				
-				 {product?.salePrice   ?  <div className='block mt-4'>  <div><strike className="  glow-text text-2xl ">{product?.regularPrice}</strike></div><span className='ml-3 text-2xl bg-white rounded-full px-6 py-1 text-gray-500'>{product?.price}  </span></div> :   <div className=" text-2xl">{product?.price }<span className='ml-2'></span></div>}
+				 {product?.salePrice   ?  <div className='block mt-4'>  <div><strike className="  glow-text text-2xl ">{product?.regularPrice}</strike></div><span className='ml-3 text-2xl  px-6 py-1 text-gray-500'>{product?.price}  </span></div> :   <div className=" text-2xl">{product?.price }<span className='ml-2'></span></div>}
 				
 					<AddToCartButton product={ product } />
 				</div>

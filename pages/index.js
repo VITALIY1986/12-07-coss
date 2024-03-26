@@ -64,6 +64,8 @@ export default function Home (props) {
 	<div  className="main  ">
 	<HeroCarousel heroCarousel={heroCarousel}/>
 	<div className="wt-braun"></div>
+	<div className="products container mx-auto my-20  ">
+	
 		<div className="text-justify  mt-10 mx-3">
 	<h1 className="font-semibold lg:text-center">Bine ați venit la C.O.S Laboratories- Sursa dumneavoastră de sănătate și vitalitate!</h1>
 	<p className="mt-3 lg:text-center">Corpul nostru este o sistemă complexă, care necesită o varietate de substanțe nutritive pentru a menține sănătatea și bunăstarea. La Laboratoarele C.O.S, înțelegem cât de important este să aveți acces la vitamine și minerale de înaltă calitate pentru a vă menține energia, imunitatea și starea generală de sănătate la un nivel optim. Oferim o gamă largă de produse pentru sănătatea creierului, digestie, energie, întărirea imunității, sănătatea inimii, precum și pentru frumusețea pielii, părului și unghiilor.</p>
@@ -143,7 +145,7 @@ export default function Home (props) {
 	
 
 
-
+			</div>
 
 			
 
@@ -180,7 +182,7 @@ export default function Home (props) {
 		
 					<div className="products container mx-auto my-32 px-4 ">
 					<h2 className="text-2xl ml-3 uppercase mt-20 text-center font-semibold">Blog</h2>
-					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4">
+					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-4 my-10">
 						{ news.length ? (
 							news.map( post => <Post key={ post.id } post={ post }/> )
 						) : '' }
