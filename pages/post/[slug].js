@@ -49,7 +49,7 @@ export default function Post(props) {
 	return (
 		
 			<Layout>
-                <div className="flex flex-col lg:flex-row mx-3 md:mx-10 lg:mx-20 lg:flex    my-20">
+                <div className="flex flex-col lg:flex-row mx-3 md:mx-10 lg:mx-20 lg:flex    my-20 p-6 bg-white">
                     	
                     <div className="lg:w-2/4 mt-6 lg:mt-0 lg:order-first ">		
                         <h4 className="products-main-title text-2xl lg:text-4xl lg:w-11/12 uppercase">{ post?.title }</h4>
