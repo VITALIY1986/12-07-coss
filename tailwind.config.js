@@ -49,6 +49,9 @@ module.exports = {
           yellow_all: {
             DEFAULT: '#ffc937'
           },
+          green_social_media_all: {
+            DEFAULT: '#f3ffd3'
+          },
           pink: {
             light: '#e44244',
             DEFAULT: '#e44244',

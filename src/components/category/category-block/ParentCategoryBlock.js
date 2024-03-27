@@ -11,7 +11,7 @@ const ParentCategoryBlock = ( props ) => {
 			<Link href={`/categorie/${category?.slug}`}>
 				<a>
 				<Image
-						className=" mx-3 rounded-full bg-gray"
+						className=" mx-3 rounded-full bg-green_social_media_all"
 						layout="fill"
 						containerClassNames="h-28 w-28"
 						sourceUrl={ category?.image?.sourceUrl ?? '' }
